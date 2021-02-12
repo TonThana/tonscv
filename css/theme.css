@@ -1,0 +1,19 @@
+.whiteOnBlack_Text {
+    color: rgb(255,255,255);
+    /* text-shadow: 2px 2px rgb(0,0,0); */
+}
+
+.blackOnWhite_Text {
+    color: rgb(0,0,0);
+}
+
+.whiteOnBlack_FillStroke {
+    fill: rgb(220,220,220);
+    stroke: rgb(220,220,220)
+}
+
+
+.blackOnWhite_FillStroke {
+    fill: rgb(0,0,0);
+    stroke: rgb(0,0,0);
+}

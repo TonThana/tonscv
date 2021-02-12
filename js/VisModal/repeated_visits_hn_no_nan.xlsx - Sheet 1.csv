@@ -1,0 +1,29 @@
+,hn,visit,ผู้ลงข้อมูล,Reader,Score on axial FLAIR images,Atrophy Axial FLAIR,MTA rating scale,Score on Koedam,Atrophy Koedam,Midbrain Area,Caudate nucleus,Lentiform nucleus
+0,1001,Visit Screening,NP,1st Reader,1,Symmetrical atrophy,0,0,Normal,Normal,Normal,Normal
+1,1001,Visit Screening,OT,2nd Reader,1,Symmetrical atrophy,0,1,Symmetrical atrophy,Normal,Atrophy Both Sides,Normal
+12,1002,Visit Screening,OT,1st Reader,1,Symmetrical atrophy,0,1,Symmetrical atrophy,Normal,Atrophy Both Sides,Normal
+13,1002,Visit Screening,PC,2nd Reader,1,Normal,1,2,Symmetrical atrophy,Normal,Normal,Normal
+35,1003,Visit Screening,PC,1st Reader,1,Symmetrical atrophy,1,1,Symmetrical atrophy,Normal,Normal,Normal
+36,1003,Visit Screening,OT,2nd Reader,1,Symmetrical atrophy,1,1,Symmetrical atrophy,Normal,Atrophy Both Sides,Normal
+46,1004,Visit Screening,PC,1st Reader,0,Normal,1,0,Normal,Normal,Normal,Normal
+47,1004,Visit Screening,OT,2nd Reader,1,Symmetrical atrophy,0,1,Symmetrical atrophy,Normal,Atrophy Right Side,Normal
+68,1005,Visit Screening,OT,1st Reader,0,Normal,0,0,Normal,Normal,Normal,Normal
+69,1005,Visit Screening,PC,2nd Reader,0,Normal,1,0,Normal,Normal,Normal,Normal
+74,1006,Visit Screening,OT,1st Reader,2,Symmetrical atrophy,0,2,Symmetrical atrophy,Normal,Normal,Normal
+75,1006,Visit Screening,NS,2nd Reader,1,Normal,0,0,Normal,Normal,Normal,Normal
+79,1007,Visit Screening,OT,1st Reader,0,Normal,0,0,Normal,Normal,Normal,Normal
+80,1007,Visit Screening,PC,2nd Reader,0,Normal,0,0,Normal,Normal,Normal,Normal
+89,1008,Visit Screening,PP,1st Reader,2,Symmetrical atrophy,3,3,Symmetrical atrophy,Normal,Normal,Atrophy Right Side
+90,1008,Visit Screening,PC,2nd Reader,3,Symmetrical atrophy,2,3,Symmetrical atrophy,Atrophy,Normal,Normal
+103,1009,Visit Screening,PP,1st Reader,1,Symmetrical atrophy,0,1,Normal,Normal,Atrophy Both Sides,Normal
+104,1009,Visit Screening,OT,2nd Reader,1,Symmetrical atrophy,0,1,Symmetrical atrophy,Normal,Normal,Normal
+116,1010,Visit Screening,PP,1st Reader,0,Normal,0,0,Normal,Normal,Normal,Normal
+117,1010,Visit Screening,PC,2nd Reader,0,Symmetrical atrophy,0,1,Symmetrical atrophy,Normal,Normal,Normal
+121,1011,Visit Screening,PC,1st Reader,1,Symmetrical atrophy,1,1,Symmetrical atrophy,Normal,Normal,Normal
+122,1011,Visit Screening,OT,2nd Reader,1,Symmetrical atrophy,0,1,Symmetrical atrophy,Normal,Normal,Normal
+128,1012,Visit Screening,OT,1st Reader,1,Symmetrical atrophy,0,1,Symmetrical atrophy,Normal,Normal,Normal
+129,1012,Visit Screening,PC,2nd Reader,1,Symmetrical atrophy,1,1,Symmetrical atrophy,Normal,Normal,Normal
+136,1013,Visit Screening,OT,1st Reader,0,Normal,0,0,Normal,Normal,Normal,Normal
+137,1013,Visit Screening,PC,2nd Reader,0,Normal,1,0,Normal,Normal,Normal,Normal
+165,1014,Visit Screening,OT,1st Reader,1,Symmetrical atrophy,0,1,Symmetrical atrophy,Normal,Atrophy Both Sides,Normal
+166,1014,Visit Screening,PC,2nd Reader,0,Symmetrical atrophy,1,0,Normal,Normal,Normal,Normal

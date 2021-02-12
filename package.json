@@ -1,0 +1,36 @@
+{
+  "name": "toncv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html -- open",
+    "build": "parcel build index.html",
+    "heroku-postbuild": "parcel build index.html"
+  },
+  "keywords": [
+    "cv",
+    "ton",
+    "thana"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "animejs": "^3.2.1",
+    "charming": "^3.0.2",
+    "d3": "^6.5.0",
+    "imagesloaded": "^4.1.4",
+    "objects": "^0.3.0",
+    "parcel-bundler": "1.12.4",
+    "postprocessing": "^6.19.2",
+    "scrollmonitor": "^1.2.4",
+    "three": "^0.124.0",
+    "three.meshline": "^1.3.0",
+    "throttle-debounce": "^3.0.1",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10"
+  }
+}

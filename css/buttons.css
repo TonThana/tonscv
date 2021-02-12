@@ -1,0 +1,249 @@
+a.animated-button:link {
+    text-decoration: none;
+}
+a.animated-button:hover{
+    text-decoration: none; 
+}
+a.animated-button:visited{
+    color:inherit
+}
+
+a.animated-button.thar-four {
+	/* color: #fff; */
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	border: 2px solid lightskyblue;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    outline: none;
+    background: none;
+}
+a.animated-button.thar-four:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: nfour;
+}
+a.animated-button.thar-four:hover:before {
+	right: 0%;
+	left: auto;
+	width: 100%;
+}
+a.animated-button.thar-four:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: lightskyblue;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+
+a.animated-button.beforeRGB16221188:before {
+	background: rgb(162, 211, 88) !important;
+}
+a.animated-button.beforeRGB25520147::before {
+	background: rgb(255, 20, 147) !important;
+}
+a.animated-button.beforeRGB2319774::before {
+	background: rgb(231,97,74) !important;
+}
+a.animated-button.before4B8BBE::before {
+	background: #4b8bbe !important;
+}
+
+
+
+
+a.animated-button.thar-one {
+	/* color: #fff; */
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+    border: 2px solid lightskyblue;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    outline:none;
+    background: none;
+}
+a.animated-button.thar-one:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: none;
+}
+a.animated-button.thar-one:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+}
+a.animated-button.thar-one:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	/* control percentage here */
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: lightskyblue;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-two {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	border: 2px solid lightskyblue;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    outline:none;
+    background: none;
+}
+a.animated-button.thar-two:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: ntwo;
+}
+a.animated-button.thar-two:hover:before {
+	top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+a.animated-button.thar-two:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: lightskyblue;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+/* 
+a.animated-button.active {
+    border: 2px solid #12DA44;
+}
+a.animated-button.inactive {
+    border: 2px solid lightskyblue;
+} */
+
+
+
+/*  button modal */
+.click-reveal {
+    position: fixed;
+	max-width: 500px;
+	height: auto;
+	top: 0;
+	left: 0;
+    opacity: 0;
+    background-color:rgb(139, 226, 153);
+	pointer-events: none;
+}
+
+a[data-proj="true"]>div.click-reveal {
+	background-color:rgb(241, 250, 121) !important;
+}
+
+
+.click-reveal__inner {
+	width: 100%;
+	height: 100%;
+    position: relative;
+    padding: 5px;
+    
+}
+
+
+
+a.animated-button.thar-75 {
+	
+	padding:5px;
+	/* color: #fff; */
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+    border: 2px solid #fcd12a;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    outline:none;
+    background: none;
+	font-size: 1em;
+}
+
+a.animated-button.beforef8e473::before {
+	background: #fcd12a !important;
+}
+
+a.animated-button.thar-75:hover {
+	color: inherit;
+	background-color: transparent;
+	text-shadow: none;
+}
+a.animated-button.thar-75:hover:before {
+	left: 0%;
+	right: auto;
+	width: 70%;
+}
+a.animated-button.thar-75:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: inherit;
+	/* background: lightskyblue; */
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+
+
+
+a.animated-button.thar-10 {
+	
+	padding:5px;
+	/* color: #fff; */
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+    border: 2px solid #2afc5f;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    outline:none;
+    background: none;
+	font-size: 1em;
+}
+
+a.animated-button.before2afc5f::before {
+	background: #2afc5f !important;
+}
+
+a.animated-button.thar-10:hover {
+	color: inherit;
+	background-color: transparent;
+	text-shadow: none;
+}
+a.animated-button.thar-10:hover:before {
+	left: 0%;
+	right: auto;
+	width: 10%;
+}
+a.animated-button.thar-10:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: inherit;
+	/* background: lightskyblue; */
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
