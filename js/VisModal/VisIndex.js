@@ -16,7 +16,7 @@ export const visMain = () => {
     container.appendChild(vis)
     const visExplan = document.createElement('div')
     visExplan.setAttribute("id", "vis-explanation")
-    visExplan.innerText = "a d3.js visualisation of the discrepancies between pairs of radiologists in rating degrees of brain atrophy in a project on Alzheimer's Disease [a preliminary investigation, 2019]."
+    visExplan.innerText = "a d3.js visualisation of the discrepancies between pairs of radiologists in rating degrees of brain atrophy in a project on Alzheimer's Disease [a preliminary investigation, 2019]. Sortable top-left colored circle."
     container.appendChild(visExplan)
     loadCsv(csvFile, formatData);
 }
