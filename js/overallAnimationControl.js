@@ -5,7 +5,7 @@ import { staticBlobInit } from './shapeMorph'
 import { webglStart, webglStop } from "./cosmicBackground/main";
 // import { pathActInit } from "./PathActivations/PathActivations";
 import getRandomInt from "./cosmicBackground/utils/getRandomInt";
-
+import { start } from './harit2022/generativeAsciiArt'
 
 const blobInit = () => {
 
@@ -104,7 +104,9 @@ const blobInit = () => {
 
         document.body.classList.remove('loading')
         document.body.classList.add('imgloaded');
-
+        document.body.querySelectorAll('.notcv').forEach(cont => {
+            cont.style.display = 'none'
+        })
     })
 
     // imagesLoaded(document.querySelectorAll('.item__img'), () => {
@@ -112,5 +114,20 @@ const blobInit = () => {
     // })
 }
 
-blobInit()
 
+
+// on page start, on page change
+window.addEventListener('load', () => {
+    const pathName = window.location.pathname
+    console.log(pathName)
+    if (pathName == "/") {
+        blobInit()
+    } else if (pathName == '/hbdhr22') {
+        document.body.classList.remove('loading')
+        const CVs = document.querySelectorAll(".cv")
+        CVs.forEach(cont => {
+            cont.style.display = "none"
+        })
+        start()
+    }
+})
