@@ -119,10 +119,12 @@ const blobInit = () => {
 // on page start, on page change
 window.addEventListener('load', () => {
     const pathName = window.location.pathname
-    console.log(pathName)
-    if (pathName == "/") {
+    const hashName = window.location.hash
+    console.log(pathName, hashName)
+    if (pathName == "/" && hashName == "") {
         blobInit()
-    } else if (pathName == '/hbdhr22') {
+        return
+    } else if (hashName == '#hbdhr22') {
         document.body.classList.remove('loading')
         const CVs = document.querySelectorAll(".cv")
         CVs.forEach(cont => {

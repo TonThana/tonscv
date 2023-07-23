@@ -188,7 +188,7 @@ a.animated-button.thar-75:hover {
 a.animated-button.thar-75:hover:before {
 	left: 0%;
 	right: auto;
-	width: 70%;
+	width: 100%;
 }
 a.animated-button.thar-75:before {
 	display: block;
@@ -232,7 +232,7 @@ a.animated-button.thar-10:hover {
 a.animated-button.thar-10:hover:before {
 	left: 0%;
 	right: auto;
-	width: 10%;
+	width: 50%;
 }
 a.animated-button.thar-10:before {
 	display: block;
